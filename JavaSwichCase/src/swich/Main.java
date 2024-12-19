@@ -13,6 +13,8 @@ public class Main {
 		int the = 4;
 		int chocolat = 5;
 		int eau = 6; 
+		int siropDeFraise = 7;
+		
 		
 		Scanner input = new Scanner(System.in);
 		System.out.println("Choisissez votre article" );
@@ -38,8 +40,12 @@ public class Main {
 				System.out.println("votre chocolat  est pret");
 				break;
 			case 6:
-				System.out.println("votre est la");
+				System.out.println("votre eau est la");
 				break;
+			case 7:
+				System.out.println("le sirop est prêt");
+				break;
+
 		}
 		
 
